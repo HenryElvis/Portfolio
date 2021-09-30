@@ -1,0 +1,150 @@
+body
+{
+    padding: 2% 0% 5% 5%;
+}
+
+h1, h2, h3, p, a, li
+{
+    color: white;
+}
+
+#PresentationPage h1
+{
+    font-size: 130px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 2%;
+}
+
+#PresentationPage h2
+{
+    font-size: 32px;
+    font-weight: thin;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5%;
+}
+
+#EducationPage
+{
+    font-weight: thin;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    text-align: end;
+    font-weight: bold;
+    padding-right: 5%;
+}
+
+#EducationPage ol
+{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    padding: 10% 10% 20% 0%;
+}
+
+#WorkExperience h3
+{
+    text-align: start;
+    font-size: 80px;
+    padding-right: 5%;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#WorkExperience ol
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 5%;
+}
+
+#WorkExperience ol li
+{
+    padding-bottom: 5%;
+}
+
+#SkillsAbilities h3
+{
+    text-align: end;
+    font-size: 80px;
+    padding-top: 10%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#SkillsAbilities ol ul
+{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10%;
+    color: white;
+}
+
+#WorkTogether h3
+{
+    text-align: start;
+    font-size: 80px;
+    padding-top: 10%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#WorkTogether ol
+{
+    width: 500px;
+    text-align: start;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#WorkTogether ol p
+{
+    font-weight: lighter;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+ol
+{
+    list-style: none;
+}
+
+li
+{
+    color: #57ffdc;
+}
+
+ul
+{
+    color: #57ffdc;
+}
+
+h2
+{
+    color: #57ffdc;
+}
+
+body
+{
+    background-color: black;
+}
+
+#CircleMenu
+{
+    background-color: #57ffdc;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
