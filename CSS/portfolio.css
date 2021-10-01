@@ -1,8 +1,3 @@
-body
-{
-    padding: 2% 0% 5% 5%;
-}
-
 h1, h2, h3, p, a, li
 {
     color: white;
@@ -85,6 +80,12 @@ h1, h2, h3, p, a, li
 
 #WorkTogether h3
 {
+    position: absolute;
+    right: 60%;
+}
+
+#WorkTogether h3
+{
     text-align: start;
     font-size: 80px;
     padding-top: 10%;
@@ -93,7 +94,7 @@ h1, h2, h3, p, a, li
     font-family: 'Roboto', sans-serif;
 }
 
-#WorkTogether ol
+#WorkTogether ol ol
 {
     width: 500px;
     text-align: start;
@@ -106,8 +107,31 @@ h1, h2, h3, p, a, li
 #WorkTogether ol p
 {
     font-weight: lighter;
-    padding-top: 5%;
+    padding-top: 8%;
     padding-bottom: 15%;
+}
+
+#WorkTogetherImage ul
+{
+    height: 150px;
+    width: 150px;
+    margin-left: 40%;
+    border-radius: 50%;
+}
+
+#WorkTogetherImage ul:not(:last-child)
+{
+    margin-bottom: 4%;
+}
+
+.blueColor
+{
+    background-color: #00AB8E;
+}
+
+.otherBlueColor
+{
+    background-color: #0086D9;
 }
 
 ol
@@ -133,6 +157,7 @@ h2
 body
 {
     background-color: black;
+    padding: 2% 0% 5% 5%;
 }
 
 #CircleMenu
