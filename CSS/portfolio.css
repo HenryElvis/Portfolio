@@ -1,3 +1,9 @@
+section
+{
+   /*border: 1px solid red;*/
+    height: 800px
+}
+
 h1, h2, h3, p, a, li
 {
     color: white;
@@ -5,14 +11,14 @@ h1, h2, h3, p, a, li
 
 #PresentationPage h1
 {
-    font-size: 130px;
+    font-size: 800%;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 2%;
 }
 
 #PresentationPage h2
 {
-    font-size: 32px;
+    font-size: 300%;
     font-weight: thin;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 5%;
@@ -22,7 +28,7 @@ h1, h2, h3, p, a, li
 {
     font-weight: thin;
     font-family: 'Roboto', sans-serif;
-    font-size: 80px;
+    font-size: 450%;
     text-align: end;
     font-weight: bold;
     padding-right: 5%;
@@ -38,56 +44,102 @@ h1, h2, h3, p, a, li
 
 #WorkExperience h3
 {
-    text-align: start;
-    font-size: 80px;
+    position: absolute;
+    right: 60%;
+    padding-top: 10%;
     padding-right: 5%;
+
+    text-align: start;
+    font-size: 600%;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
 
-#WorkExperience ol
+#WorkExperience ol ol
 {
-    text-align: center;
-    font-size: 30px;
-    font-weight: lighter;
-    font-family: 'Roboto', sans-serif;
-    padding-right: 5%;
+    width: 500px;
+    text-align: start;
+    float: right;
 }
 
-#WorkExperience ol li
+#workExperienceText li
 {
-    padding-bottom: 5%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#workExperienceText p
+{
+    font-size: 28px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+
+#workExperienceText p:not(:last-child)
+{
+    margin-bottom: 20%;
+}
+
+#workExperienceImage ul
+{
+    height: 150px;
+    width: 150px;
+    margin-left: 40%;
+    border-radius: 50%;
+}
+
+#workExperienceImage ul:not(:last-child)
+{
+    margin-bottom: 5%;
+}
+
+#SkillsAbilities
+{
+    padding-bottom: 25%;
+}
+
+#SkillsAbilities ol
+{
+    float: left;
 }
 
 #SkillsAbilities h3
 {
     text-align: end;
-    font-size: 80px;
+    font-size: 600%;
     padding-top: 10%;
     padding-right: 5%;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
 
-#SkillsAbilities ol ul
+
+#SkillsAbilitiesText ul
 {
     font-size: 30px;
+    padding-left: 50%;
+    padding-top: 15%;
+    padding-bottom: 50%;
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
-    padding-bottom: 10%;
     color: white;
+}
+
+#SkillsAbilitiesImage ul
+{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30%;
+    border-radius: 50%;
 }
 
 #WorkTogether h3
 {
     position: absolute;
     right: 60%;
-}
-
-#WorkTogether h3
-{
     text-align: start;
-    font-size: 80px;
+    font-size: 600%;
     padding-top: 10%;
     padding-right: 5%;
     font-weight: bold;
@@ -172,4 +224,12 @@ body
     font-weight: bold;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
+}
+
+@media(max-width: 1500px)
+{
+    #WorkTogetherImage ul, #workExperienceImage ul
+    {
+        visibility: hidden;
+    }
 }
