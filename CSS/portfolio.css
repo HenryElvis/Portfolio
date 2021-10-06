@@ -1,7 +1,6 @@
 section
 {
-   /*border: 1px solid red;*/
-    height: 800px
+    height: 1000px
 }
 
 h1, h2, h3, p, a, li
@@ -11,14 +10,14 @@ h1, h2, h3, p, a, li
 
 #PresentationPage h1
 {
-    font-size: 800%;
+    font-size: 120px;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 2%;
 }
 
 #PresentationPage h2
 {
-    font-size: 300%;
+    font-size: 80px;
     font-weight: thin;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 5%;
@@ -28,10 +27,10 @@ h1, h2, h3, p, a, li
 {
     font-weight: thin;
     font-family: 'Roboto', sans-serif;
-    font-size: 450%;
+    font-size: 100px;
     text-align: end;
     font-weight: bold;
-    padding-right: 5%;
+    padding-right: 10%;
 }
 
 #EducationPage ol
@@ -46,11 +45,9 @@ h1, h2, h3, p, a, li
 {
     position: absolute;
     right: 60%;
-    padding-top: 10%;
-    padding-right: 5%;
-
     text-align: start;
-    font-size: 600%;
+    font-size: 100px;
+    padding-top: 10%;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
@@ -107,9 +104,10 @@ h1, h2, h3, p, a, li
 #SkillsAbilities h3
 {
     text-align: end;
-    font-size: 600%;
-    padding-top: 10%;
-    padding-right: 5%;
+    font-size: 100px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
@@ -139,7 +137,7 @@ h1, h2, h3, p, a, li
     position: absolute;
     right: 60%;
     text-align: start;
-    font-size: 600%;
+    font-size: 100px;
     padding-top: 10%;
     padding-right: 5%;
     font-weight: bold;
