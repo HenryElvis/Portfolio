@@ -135,16 +135,20 @@ h1, h2, h3, p, a, li
 #WorkTogether h3
 {
     position: absolute;
-    right: 60%;
     text-align: start;
     font-size: 100px;
-    padding-top: 10%;
-    padding-right: 5%;
+    padding-top: 200px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
 
-#WorkTogether ol ol
+#WorkTogether section
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#WorkTogetherText ol ul
 {
     width: 500px;
     text-align: start;
@@ -152,26 +156,36 @@ h1, h2, h3, p, a, li
     font-size: 30px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+    padding-top: 8%;
 }
 
-#WorkTogether ol p
+#WorktogetherSpace
 {
-    font-weight: lighter;
-    padding-top: 8%;
-    padding-bottom: 15%;
+    width: 50px;
 }
 
 #WorkTogetherImage ul
 {
     height: 150px;
     width: 150px;
-    margin-left: 40%;
     border-radius: 50%;
+}
+
+#WorkTogetherText ol p
+{
+    font-weight: lighter;
+    font-size: 30px;
+    padding-top: 15%;
+}
+
+#WorkTogetherText ol p:not(:last-child)
+{
+    padding-bottom: 15%;
 }
 
 #WorkTogetherImage ul:not(:last-child)
 {
-    margin-bottom: 4%;
+    margin-bottom: 20%;
 }
 
 .blueColor
@@ -229,5 +243,27 @@ body
     #WorkTogetherImage ul, #workExperienceImage ul
     {
         visibility: hidden;
+    }
+}
+
+@media(min-width: 2700px)
+{
+    body
+    {
+        background-color: grey;
+    }
+}
+
+@media(max-width: 1000px)
+{
+    #SkillsAbilities h3, #WorkExperience h3
+    {
+        font-size: 50px;
+    }
+
+    #WorkTogether h3
+    {
+        font-size: 50px;
+        padding-left: 10%;
     }
 }
