@@ -41,15 +41,24 @@ h1, h2, h3, p, a, li
     padding: 10% 10% 20% 0%;
 }
 
+#WorkExperience section
+{
+    display: flex;
+    justify-content: space-around;
+}
+
 #WorkExperience h3
 {
-    position: absolute;
-    right: 60%;
     text-align: start;
     font-size: 100px;
     padding-top: 10%;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+}
+
+#WorkExperienceSpace
+{
+    width: 150px;
 }
 
 #WorkExperience ol ol
@@ -64,6 +73,7 @@ h1, h2, h3, p, a, li
     font-size: 30px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+    padding-top: 5%;
 }
 
 #workExperienceText p
@@ -75,7 +85,7 @@ h1, h2, h3, p, a, li
 
 #workExperienceText p:not(:last-child)
 {
-    margin-bottom: 20%;
+    margin-bottom: 11%;
 }
 
 #workExperienceImage ul
@@ -88,18 +98,15 @@ h1, h2, h3, p, a, li
 
 #workExperienceImage ul:not(:last-child)
 {
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
-#SkillsAbilities
+#SkillsAbilities section
 {
-    padding-bottom: 25%;
+    display: flex;
+    justify-content: space-around;
 }
 
-#SkillsAbilities ol
-{
-    float: left;
-}
 
 #SkillsAbilities h3
 {
@@ -118,18 +125,27 @@ h1, h2, h3, p, a, li
     font-size: 30px;
     padding-left: 50%;
     padding-top: 15%;
-    padding-bottom: 50%;
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
     color: white;
+}
+
+#SkillsAbilitiesText ul:not(:last-child)
+{
+    padding-bottom: 50%;
 }
 
 #SkillsAbilitiesImage ul
 {
     height: 150px;
     width: 150px;
-    margin-bottom: 30%;
+
     border-radius: 50%;
+}
+
+#SkillsAbilitiesImage ul:not(:last-child)
+{
+    margin-bottom: 30%;
 }
 
 #WorkTogether h3
@@ -145,7 +161,7 @@ h1, h2, h3, p, a, li
 #WorkTogether section
 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 #WorkTogetherText ol ul
@@ -161,7 +177,7 @@ h1, h2, h3, p, a, li
 
 #WorktogetherSpace
 {
-    width: 50px;
+    width: 100px;
 }
 
 #WorkTogetherImage ul
@@ -246,14 +262,6 @@ body
     }
 }
 
-@media(min-width: 2700px)
-{
-    body
-    {
-        background-color: grey;
-    }
-}
-
 @media(max-width: 1000px)
 {
     #SkillsAbilities h3, #WorkExperience h3
@@ -261,9 +269,26 @@ body
         font-size: 50px;
     }
 
+    #workExperienceImage ul
+    {
+        height: 0px;
+        width: 0px;
+        margin-left: 0%;
+        border-radius: 0%;
+        visibility: hidden;
+    }
+
     #WorkTogether h3
     {
         font-size: 50px;
         padding-left: 10%;
+    }
+
+    #SkillsAbilitiesImage ul
+    {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 30%;
+        border-radius: 50%;
     }
 }
