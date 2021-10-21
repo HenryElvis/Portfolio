@@ -148,11 +148,9 @@ h1, h2, h3, p, a, li
     margin-bottom: 30%;
 }
 
-#GamesProject #TheGuardian
+#GamesProject #TheGuardian img
 {
-    height: 75%;
-    display: flex;
-    justify-content: center;
+    padding: 5%;
 }
 
 #WorkTogether h3
