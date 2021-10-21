@@ -203,6 +203,14 @@ h1, h2, h3, p, a, li
     margin-bottom: 20%;
 }
 
+.images
+{
+    height: 75px;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+
 .blueColor
 {
     background-color: #00AB8E;
