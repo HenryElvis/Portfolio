@@ -15,7 +15,7 @@ h1, h2, h3, p, a, li
     font-size: 80px;
     font-weight: thin;
     font-family: 'Roboto', sans-serif;
-    padding-bottom: 5%;
+    padding-bottom: 30%;
 }
 
 #EducationPage
@@ -281,6 +281,11 @@ body
 @media(max-width: 1000px)
 {
     #SkillsAbilities h3, #WorkExperience h3
+    {
+        font-size: 50px;
+    }
+
+    #EducationPage h3
     {
         font-size: 50px;
     }
