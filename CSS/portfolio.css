@@ -154,7 +154,16 @@ h1, h2, h3, p, a, li
 #GamesProject #TheGuardian img
 {
     padding: 5%;
-    width: 1000px;
+    padding-left: 15%;
+    width: 2000px;
+}
+
+#GamesProject h3
+{
+    text-align: start;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 #WorkTogether h3
@@ -270,11 +279,26 @@ body
     font-family: 'Roboto', sans-serif;
 }
 
+@media(max-width: 2000px)
+{
+    #GamesProject #TheGuardian img
+    {
+        padding: 5%;
+        width: 1500px;
+    }
+}
+
 @media(max-width: 1500px)
 {
     #WorkTogetherImage ul, #workExperienceImage ul
     {
         visibility: hidden;
+    }
+
+    #GamesProject #TheGuardian img
+    {
+        padding: 5%;
+        width: 1000px;
     }
 }
 
@@ -297,6 +321,11 @@ body
         margin-left: 0%;
         border-radius: 0%;
         visibility: hidden;
+    }
+
+    #GamesProject h3
+    {
+        font-size: 50px;;
     }
 
     #WorkTogether h3
