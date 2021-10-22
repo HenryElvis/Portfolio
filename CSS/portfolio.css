@@ -1,8 +1,3 @@
-section
-{
-    height: 1000px
-}
-
 h1, h2, h3, p, a, li
 {
     color: white;
@@ -31,6 +26,7 @@ h1, h2, h3, p, a, li
     text-align: end;
     font-weight: bold;
     padding-right: 10%;
+    padding-bottom: 20%;
 }
 
 #EducationPage ol
@@ -43,6 +39,7 @@ h1, h2, h3, p, a, li
 
 #WorkExperience section
 {
+    padding-bottom: 8%;
     display: flex;
     justify-content: space-around;
 }
@@ -103,6 +100,7 @@ h1, h2, h3, p, a, li
 
 #SkillsAbilities section
 {
+    padding-bottom: 5%;
     display: flex;
     justify-content: space-around;
 }
@@ -148,9 +146,15 @@ h1, h2, h3, p, a, li
     margin-bottom: 30%;
 }
 
+#GamesProject
+{
+    padding-bottom: 5%;
+}
+
 #GamesProject #TheGuardian img
 {
     padding: 5%;
+    width: 1000px;
 }
 
 #WorkTogether h3
@@ -302,5 +306,10 @@ body
         width: 150px;
         margin-bottom: 30%;
         border-radius: 50%;
+    }
+
+    #GamesProject #TheGuardian img
+    {
+        width: 700px;
     }
 }
