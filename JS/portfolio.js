@@ -19,17 +19,11 @@ function ChangeImgAtButtonPressed(nameOfFolder, numberFile)
 
 function ChangeImgFollowLightAtButtonPressed(nameOfFolder, numberFile)
 {
-    imgFollowLight.src = imgSrc + nameOfFolder + "2.JPG";
-
-    alert("test");
-    
-    /*
     indexFollowLight < numberFile ? indexFollowLight++ : indexFollowLight = 0;
     imgFollowLight.src = imgSrc + nameOfFolder + indexFollowLight + ".JPG";
-    */
 }
 
 btn.addEventListener('click', () => ChangeImgAtButtonPressed("Unity/The Guardian/Image", 5))
 
 btnNextFollowLight.addEventListener('click', 
-() => ChangeImgFollowLightAtButtonPressed("Unreal engine/Follow The Light/Image", 5))
+() => ChangeImgFollowLightAtButtonPressed("Unreal Engine/Follow The Light/Image", 5))
