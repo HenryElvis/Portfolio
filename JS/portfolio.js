@@ -1,6 +1,8 @@
 //alert("Toujours en cours de création..Veuillez patienter :)");
 
 var indexGuardian = 0;
+var indexFollowLight = 0;
+
 var imgSrc = "Images/Games Images/";
 
 let img = document.getElementById("Img");
@@ -17,9 +19,10 @@ function ChangeImgAtButtonPressed(nameOfFolder, numberFile)
 
 function ChangeImgFollowLightAtButtonPressed(nameOfFolder, numberFile)
 {
-    indexGuardian < numberFile ? indexGuardian++ : indexGuardian = 0;
-    imgFollowLight.src = imgSrc + nameOfFolder + indexGuardian + ".JPG";
+    indexFollowLight < numberFile ? indexFollowLight++ : indexFollowLight = 0;
+    imgFollowLight.src = imgSrc + nameOfFolder + indexFollowLight + ".JPG";
 }
 
-btn.addEventListener('click', () => ChangeImgAtButtonPressed("Unity/The Guardian/Image", 5, img.src))
-btnNextFollowLight.addEventListener('click', () => ChangeImgFollowLightAtButtonPressed("Unreal engine/Follow The Light/Image", 5))
+btn.addEventListener('click', () => ChangeImgAtButtonPressed("Unity/The Guardian/Image", 5))
+btnNextFollowLight.addEventListener('click', 
+() => ChangeImgFollowLightAtButtonPressed("Unreal engine/Follow The Light/Image", 5))
