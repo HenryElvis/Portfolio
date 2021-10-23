@@ -158,6 +158,13 @@ h1, h2, h3, p, a, li
     width: 2000px;
 }
 
+#GamesProject #FollowLight img
+{
+    padding: 5%;
+    padding-left: 15%;
+    width: 2000px;
+}
+
 #GamesProject h3
 {
     text-align: start;
@@ -286,6 +293,12 @@ body
         padding: 5%;
         width: 1500px;
     }
+
+    #GamesProject #FollowLight img
+    {
+        padding: 5%;
+        width: 1500px;
+    }
 }
 
 @media(max-width: 1500px)
@@ -343,6 +356,11 @@ body
     }
 
     #GamesProject #TheGuardian img
+    {
+        width: 700px;
+    }
+
+    #GamesProject #FollowLight img
     {
         width: 700px;
     }
