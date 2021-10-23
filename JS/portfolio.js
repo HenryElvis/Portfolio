@@ -6,7 +6,7 @@ var indexFollowLight = 0;
 var imgSrc = "Images/Games Images/";
 
 let img = document.getElementById("Img");
-let imgFollowLight = document.querySelector("#ImgFollowLight");
+let imgFollowLight = document.getElementById("ImgFollowLight");
 
 let btn = document.querySelector("#Next");
 let btnNextFollowLight = document.querySelector("#NextFollowLight");
@@ -24,5 +24,6 @@ function ChangeImgFollowLightAtButtonPressed(nameOfFolder, numberFile)
 }
 
 btn.addEventListener('click', () => ChangeImgAtButtonPressed("Unity/The Guardian/Image", 5))
+
 btnNextFollowLight.addEventListener('click', 
 () => ChangeImgFollowLightAtButtonPressed("Unreal engine/Follow The Light/Image", 5))
