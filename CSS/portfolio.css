@@ -155,14 +155,14 @@ h1, h2, h3, p, a, li
 {
     padding: 5%;
     padding-left: 15%;
-    width: 2000px;
+    width: 65%;
 }
 
 #GamesProject #FollowLight img
 {
     padding: 5%;
     padding-left: 15%;
-    width: 2000px;
+    width: 65%;
 }
 
 #GamesProject h3
@@ -291,13 +291,11 @@ body
     #GamesProject #TheGuardian img
     {
         padding: 5%;
-        width: 1500px;
     }
 
     #GamesProject #FollowLight img
     {
         padding: 5%;
-        width: 1500px;
     }
 }
 
@@ -309,6 +307,12 @@ body
     }
 
     #GamesProject #TheGuardian img
+    {
+        padding: 5%;
+        width: 1000px;
+    }
+
+    #GamesProject #FollowLight img
     {
         padding: 5%;
         width: 1000px;
