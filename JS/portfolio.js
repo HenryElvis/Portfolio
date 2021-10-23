@@ -25,4 +25,4 @@ function ChangeImgFollowLightAtButtonPressed(nameOfFolder, numberFile)
 
 btn.addEventListener('click', () => ChangeImgAtButtonPressed("Unity/The Guardian/Image", 5))
 
-btnNextFollowLight.addEventListener('click', () => ChangeImgFollowLightAtButtonPressed("Unreal engine/Follow The Light/Image", 5))
+btnNextFollowLight.addEventListener('click', () => ChangeImgFollowLightAtButtonPressed("Unity/The Guardian/Image", 5))
