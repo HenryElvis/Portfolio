@@ -105,7 +105,6 @@ h1, h2, h3, p, a, li
     justify-content: space-around;
 }
 
-
 #SkillsAbilities h3
 {
     text-align: end;
@@ -117,15 +116,27 @@ h1, h2, h3, p, a, li
     font-family: 'Roboto', sans-serif;
 }
 
-
-#SkillsAbilitiesText ul
+#SkillsAbilitiesText li
 {
     font-size: 30px;
-    padding-left: 20%;
-    padding-top: 15%;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+#SkillsAbilitiesText p:not(:last-child)
+{
+    margin-bottom: 20%;
+}
+
+#SkillsAbilitiesText p
+{
+    padding-top: 1%;
+    padding-left: 10%;
+    font-size: 28px;
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
-    color: white;
 }
 
 #SkillsAbilitiesText ul:not(:last-child)
