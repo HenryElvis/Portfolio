@@ -1,4 +1,4 @@
-h1, h2, h3, p, a, li
+h1, h2, h3, h5, p, a, li
 {
     color: white;
 }
@@ -27,6 +27,35 @@ h1, h2, h3, p, a, li
     font-weight: bold;
     padding-right: 10%;
     padding-bottom: 20%;
+}
+
+#EducationPageSection h5
+{
+    padding-top: 50%;
+    font-size: 30px;
+    color: #57ffdc;
+}
+
+#EducationPageSection
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#EduText
+{
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+
+#EduText p
+{
+    font-size: 30px;
+    padding-top: 4%;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30%;
 }
 
 #EducationPage ol
@@ -162,14 +191,7 @@ h1, h2, h3, p, a, li
     padding-bottom: 5%;
 }
 
-#GamesProject #TheGuardian img
-{
-    padding: 5%;
-    padding-left: 15%;
-    width: 65%;
-}
-
-#GamesProject #FollowLight img
+#GamesProject img
 {
     padding: 5%;
     padding-left: 15%;
@@ -317,13 +339,7 @@ body
         visibility: hidden;
     }
 
-    #GamesProject #TheGuardian img
-    {
-        padding: 5%;
-        width: 1000px;
-    }
-
-    #GamesProject #FollowLight img
+    #GamesProject img
     {
         padding: 5%;
         width: 1000px;
@@ -370,12 +386,7 @@ body
         border-radius: 50%;
     }
 
-    #GamesProject #TheGuardian img
-    {
-        width: 700px;
-    }
-
-    #GamesProject #FollowLight img
+    #GamesProject img
     {
         width: 700px;
     }
