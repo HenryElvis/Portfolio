@@ -261,6 +261,13 @@ h1, h2, h3, h5, p, a, li
     margin-bottom: 20%;
 }
 
+button
+{
+    height: 50px;
+    width: 150px;
+    background-color: lightgrey;
+}
+
 .images
 {
     height: 75px;
@@ -321,12 +328,7 @@ body
 
 @media(max-width: 2000px)
 {
-    #GamesProject #TheGuardian img
-    {
-        padding: 5%;
-    }
-
-    #GamesProject #FollowLight img
+    #GamesProject img
     {
         padding: 5%;
     }
