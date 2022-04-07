@@ -71,4 +71,3 @@ btnNin.addEventListener('click', () => ChangeImgNinAtButtonPressed("Unreal Engin
 btnBe.addEventListener('click', () => ChangeImgBeAtButtonPressed("Unreal Engine/Be Stealthy/Image", 9))
 
 btnAdv.addEventListener('click', () => ChangeImgAdvAtButtonPressed("Unreal Engine/Adventurer/Image", 16))
-
