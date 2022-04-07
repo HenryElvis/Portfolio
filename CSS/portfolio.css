@@ -1,6 +1,11 @@
-h1, h2, h3, h5, p, a, li
+.whiteColor
 {
     color: white;
+}
+
+#mode
+{
+    padding-bottom: 2%;
 }
 
 #PresentationPage h1
