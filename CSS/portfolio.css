@@ -47,28 +47,36 @@
     justify-content: space-evenly;
 }
 
-#EduText
+#EducationPageSect h5
+{
+    padding-top: 50%;
+    font-size: 30px;
+    color: #57ffdc;
+}
+
+#EducationPageSect
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.EducationPageBorder
+{
+    margin-left: 35%;
+}
+
+#EducationPageSect p
 {
     width: 400px;
-    height: 400px;
-    display: flex;
-}
+    height: 500px;
 
-#EduText p
-{
+    display: flex;
+    text-align: start;
+    
     font-size: 30px;
-    padding-top: 4%;
+    padding-top: 8%;
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
-    padding-left: 30%;
-}
-
-#EducationPage ol
-{
-    display: flex;
-    font-size: 30px;
-    justify-content: space-evenly;
-    padding: 10% 10% 20% 0%;
 }
 
 #WorkExperience section
