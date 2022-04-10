@@ -50,6 +50,7 @@
 #EducationPageSect h5
 {
     padding-top: 50%;
+    padding-right: 20%;
     font-size: 30px;
     color: #57ffdc;
 }
@@ -62,7 +63,7 @@
 
 .EducationPageBorder
 {
-    margin-left: 35%;
+    margin-left: 10%;
 }
 
 #EducationPageSect p
