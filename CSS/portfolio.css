@@ -20,7 +20,7 @@
     font-size: 80px;
     font-weight: thin;
     font-family: 'Roboto', sans-serif;
-    padding-bottom: 30%;
+    padding-bottom: 20%;
 }
 
 #EducationPage
@@ -68,7 +68,7 @@
 #EducationPageSect p
 {
     width: 400px;
-    height: 500px;
+    height: 300px;
 
     display: flex;
     text-align: start;
