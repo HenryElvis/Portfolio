@@ -91,7 +91,7 @@
 {
     text-align: start;
     font-size: 100px;
-    padding-top: 10%;
+    padding-top: 45%;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
@@ -153,7 +153,7 @@
 {
     text-align: end;
     font-size: 100px;
-    padding-top: 5%;
+    padding-top: 50%;
     padding-bottom: 5%;
     padding-right: 10%;
     font-weight: bold;
@@ -181,6 +181,7 @@
     font-size: 28px;
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
+    width: 75%;
 }
 
 #SkillsAbilitiesText ul:not(:last-child)
@@ -209,7 +210,7 @@
 #GamesProject img
 {
     padding: 5%;
-    padding-left: 15%;
+    padding-left: 10%;
     width: 65%;
 }
 
@@ -225,7 +226,8 @@
 {
     text-align: start;
     font-size: 100px;
-    padding-top: 200px;
+    padding-top: 45%;
+    padding-left: 20%;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
@@ -351,14 +353,23 @@ body
 
 @media(max-width: 1500px)
 {
+    #WorkExperience h3
+    {
+        padding-top: 100%;
+    }
+    
     #WorkTogetherImage ul, #workExperienceImage ul
     {
+        height: 0px;
+        width: 0px;
+        margin-left: 0%;
+        border-radius: 0%;
         visibility: hidden;
     }
 
     #GamesProject img
     {
-        padding: 5%;
+        padding-left: 10%;
         width: 1000px;
     }
 }
@@ -375,6 +386,11 @@ body
         font-size: 50px;
     }
 
+    #WorkExperience h3
+    {
+        padding-top: 130%;
+    }
+
     #workExperienceImage ul
     {
         height: 0px;
@@ -382,6 +398,12 @@ body
         margin-left: 0%;
         border-radius: 0%;
         visibility: hidden;
+    }
+
+    #SkillsAbilities h3
+    {
+        padding-right: 40%;
+        padding-top: 140%;
     }
 
     #GamesProject h3
@@ -392,7 +414,9 @@ body
     #WorkTogether h3
     {
         font-size: 50px;
-        padding-left: 10%;
+        padding-top: 100%;
+        padding-left: 50%;
+
     }
 
     #SkillsAbilitiesImage ul
@@ -406,5 +430,6 @@ body
     #GamesProject img
     {
         width: 700px;
+        padding-left: 10%;
     }
 }
