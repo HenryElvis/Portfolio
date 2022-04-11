@@ -113,7 +113,7 @@
     font-size: 30px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 #workExperienceText p
@@ -121,11 +121,12 @@
     font-size: 28px;
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
+    width: 500px;
 }
 
 #workExperienceText p:not(:last-child)
 {
-    margin-bottom: 11%;
+    margin-bottom: 13%;
 }
 
 #workExperienceImage ul
