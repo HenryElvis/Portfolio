@@ -418,6 +418,12 @@ body
     #WorkExperience h3
     {
         padding-top: 130%;
+        animation: none !important;
+    }
+
+    #EducationPageSect
+    {
+        animation: none !important;
     }
 
     #workExperienceImage ul
