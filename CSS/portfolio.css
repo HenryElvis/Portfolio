@@ -321,6 +321,45 @@ ul
 h2
 {
     color: #57ffdc;
+
+}
+
+.animationDown
+{
+    animation: droppedText 0.8s ease-out;
+}
+
+.animationLeftToRight
+{
+    animation: animationLeft 0.8s ease-out;
+}
+
+@keyframes droppedText 
+{
+    from
+    {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes animationLeft 
+{
+    from
+    {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to
+    {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
 body
