@@ -359,21 +359,11 @@ body
     font-family: 'Roboto', sans-serif;
 }
 
-*
-{
-    transition: none !important;
-}
-
 @media(max-width: 2000px)
 {
     #GamesProject img
     {
         padding: 5%;
-    }
-
-    *
-    {
-        transition: none !important;
     }
 }
 
@@ -392,6 +382,23 @@ body
         margin-left: 0%;
         border-radius: 0%;
         visibility: hidden;
+    }
+
+    #EducationPage h3
+    {
+        font-size: 50px;
+        animation: none !important;
+    }
+
+    #WorkExperience h3
+    {
+        padding-top: 130%;
+        animation: none !important;
+    }
+
+    #EducationPageSect
+    {
+        animation: none !important;
     }
 
     #GamesProject img
