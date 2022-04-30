@@ -386,13 +386,11 @@ body
 
     #EducationPage h3
     {
-        font-size: 50px;
         animation: none !important;
     }
 
     #WorkExperience h3
     {
-        padding-top: 130%;
         animation: none !important;
     }
 
