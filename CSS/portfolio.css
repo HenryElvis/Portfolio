@@ -401,6 +401,7 @@ body
 
     #GamesProject img
     {
+        padding-left: 0%;
         width: 1000px;
     }
 }
