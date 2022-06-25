@@ -210,6 +210,11 @@
 #GamesProject
 {
     padding-bottom: 5%;
+    text-align: center;
+}
+
+.arrow-controle
+{
 }
 
 #GamesProject img
@@ -283,13 +288,6 @@
     margin-bottom: 20%;
 }
 
-button
-{
-    height: 50px;
-    width: 150px;
-    background-color: lightgrey;
-}
-
 .images
 {
     height: 75px;
@@ -327,6 +325,17 @@ h2
 {
     color: #57ffdc;
 
+}
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover
+{
+    color: #0086D9;
 }
 
 .animationDown
