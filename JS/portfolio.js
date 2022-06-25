@@ -1,4 +1,4 @@
-alert("Toujours en cours de création..Veuillez patienter :=)");
+// alert("Toujours en cours de création..Veuillez patienter :=)");
 
 let btnChangeBackground = document.querySelector("input");
 
