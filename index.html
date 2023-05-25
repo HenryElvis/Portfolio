@@ -1,854 +1,169 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Portfolio</title>
-        <link rel="icon" type="text/css" href="Images/Icons Images/gamepad.png">
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <!--<link rel="stylesheet" href="scss/reset.css">-->
+    <link rel="stylesheet" href="scss/fonts.css", type="text/css">
+    <link rel="stylesheet" href="scss/style.css", type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="title">
+        <h1 translate="no" id="titleAnim">P1RTF1L!1</h1>
+        <p>12222222222</p>
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-        <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<button id="cmd-toggle-btn">
+            <i class="fa-solid fa-terminal fa-bounce"></i>
+        </button>
+    </section>
 
-        <link rel="stylesheet" href="CSS/reset.css">
-        <link rel="stylesheet" href="CSS/portfolio.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <section id="terminal" class="hidden">
+        <div id="output"></div>
+        <p id="cmd-input">
+            <span>elvis@portfolio:~$</span>
+            <input type="text" autofocus id="input">
+        </p>
+    </section>
 
-        <!--<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css">-->
-        <!--<script defer src="https://pyscript.net/alpha/pyscript.js"></script> -->
-
-    </head>
-    <meta charset="utf-8">
-
-    <body>
-        <section id="PresentationPage">
-
-            <section>
-                <input type="image" src="Images/Icons Images/sun.png" height="75px" id="mode">
-            </section>
-
-            <h1 class="whiteColor">Elvis Henry</h1>
-            <h2 class="animationDown">Game Programmer</h2>
-
+    <!-- <div id="wrapper">
+        <section class="section section1">
+          <h2>Section 1</h2>
         </section>
-
-        <section id="EducationPage">
-            <h3 class="whiteColor animationLeftToRight">Education</h3>
-
-            <section id="EducationPageSect" class="animationLeftToRight">
-
-                <section>
-                    <h5>HIGH SCHOOL</h5>
-
-                    <section class="EducationPageBorder">
-                        <p class="whiteColor">J’ai étudié au lycée français de Tananarivo de 2017 à 2020 où j’ai pu obtenir mon baccalauréat en filière économique et sociale avec comme spécialité mathématiques.</p>
-                    </section>
-                    
-                </section>
-
-                <section>
-                    <h5>COLLEGE</h5>
-
-                    <section class="EducationPageBorder">
-                        <p class="whiteColor">J’ai étudié à SAE Institute Paris de 2020 à 2022 afin de suivre une licence dans le développement de jeux vidéo avec la spécialité programmation.</p>
-                    </section>
-
-                </section>
-
-            </section>
+        <section class="section section2">
+          <h2>Section 2</h2>
         </section>
+    </div> -->
 
-        <section id="WorkExperience">
+    <section>
+        <section class="description" id="section1">
 
-            <section>
-                <section>
-                    <h3 class="whiteColor animationLeftToRight">Work </br>Experience</h3>
-                </section>
+            <h2>Lorem.</h2>
     
-                <section>
-                    <section>
-                        <ol id="workExperienceImage">
-                            <ul class="blueColor">
-                                <img src="Images/Icons Images/suitcase.png" alt="" class="images">
-                            </ul>
-                            <ul class="otherBlueColor">
-                                <img src="Images/Icons Images/briefcase.png" alt="" class="images">
-                            </ul>
-                            <ul class="blueColor">
-                                <img src="Images/Icons Images/suitcase.png" alt="" class="images">
-                            </ul>
-                            <ul class="otherBlueColor">
-                                <img src="Images/Icons Images/briefcase.png" alt="" class="images">
-                            </ul>
-                            <ul class="blueColor">
-                                <img src="Images/Icons Images/suitcase.png" alt="" class="images">
-                            </ul>
-                        </ol>
-                    </section>
+            <article>
+                <div>
+                    <p>Ancien étudiant du Lycée Français de Tananarive. J'ai suivi la série ES avec spécialité mathématiques. Ce lycée renommé m'a offert une éducation de qualité, avec des professeurs passionnés et compétents.
+                        Grâce à mes études en série ES, j'ai développé mes compétences en mathématiques ainsi qu'une solide compréhension des sciences économiques et de la sociologie. J'ai également eu l'opportunité de participer à des projets sociaux et culturels qui ont renforcé ma créativité et mon sens des responsabilités.
+                    </p>
+                </div>
+                <div>
+                    <p>À SAE, j'ai appris les fondamentaux de la programmation de jeux, y compris les langages de programmation, les moteurs de jeux et les techniques de conception. J'ai eu l'occasion de travailler sur des projets pratiques et de collaborer avec des étudiants passionnés de divers horizons.
+                        Le bachelor en Game Programming à SAE a été une expérience stimulante et enrichissante, me préparant à une carrière dans l'industrie du jeu vidéo. Je suis impatient d'appliquer mes compétences et ma passion pour créer des expériences ludiques captivantes.</p>
+                </div>
+                <div>
+                    <p>J'ai eu l'opportunité de suivre un mastère en Game Programming à l'IIM, à l'Institut Léonard de Vinci. Cette formation spécialisée m'a permis de développer mes compétences avancées dans le domaine de la programmation de jeux vidéo.
+                        À l'IIM, j'ai approfondi mes connaissances en matière de programmation de jeux, en me concentrant sur des sujets tels que l'intelligence artificielle, les moteurs de jeux avancés, les systèmes de physique complexes et la réalité virtuelle. J'ai travaillé sur des projets ambitieux en collaboration avec des étudiants passionnés.
+                    </p>
+                </div>
+            </article>
 
-                    <section id="WorkExperienceSpace">
+        </section>
     
-                    </section>
-                    <section>
-                        <ol id="workExperienceText">
-                            <li>Parkours</li>
-                                <p class="whiteColor">Accompagnement scolaire d'étudiants dans différents établissement scolaire</p>
-                            <li>Game Jam</li>
-                                <p class="whiteColor">Developpement de projets en groupe en un temps donné et présentation aux jurys</p>
-                            <li>Créathon</li>
-                                <p class="whiteColor">Conceptualisation, développement d'application et présentation face a un jury</p>
-                            <li>Freelancer</li>
-                                <p class="whiteColor">Développement mobile et web indépendant.</p>
-                            <li>PC Upgrade</li>
-                                <p class="whiteColor">Aides, conseils et ventes de matériels informatiques</p>
-                        </ol>
-                    </section>
-                </section>                
-            </section>
-        </section>
-
-
-        <section id="SkillsAbilities">
-
-            <section>
-                <section>
-                    <section>
-                        <ol id="SkillsAbilitiesImage">
-                            <ul class="blueColor">
-                                <img src="Images/Icons Images/genius.png" alt="" class="images">
-                            </ul>
-                            <ul class="otherBlueColor">
-                                <img src="Images/Icons Images/genius.png" alt="" class="images">
-                            </ul>
-                            <ul class="blueColor">
-                                <img src="Images/Icons Images/genius.png" alt="" class="images">
-                            </ul>
-                            <ul class="otherBlueColor">
-                                <img src="Images/Icons Images/genius.png" alt="" class="images">
-                            </ul>
-                            <ul class="blueColor">
-                                <img src="Images/Icons Images/genius.png" alt="" class="images">
-                            </ul>
-                        </ol>
-                    </section>
-
-                    <section>
-                        <ol id="SkillsAbilitiesText">
-                            <li>Moteur</li>
-                                <p class="whiteColor">Unity / Unreal Engine 4 / Unreal Engine 5</p>
-                            <li>Langage</li>
-                                <p class="whiteColor">C / C++ / C# / Python / JavaScript / Dart</p>
-                            <li>Développement Mobile</li>
-                                <p class="whiteColor">FLUTTER / SWIFT</p>
-                            <li>Base De Données</li>
-                                <p class="whiteColor">Firebase / SQL</p>
-                            <li>Systeme d'Exploitation</li>
-                                <p class="whiteColor">Linux / Windows / MacOS</p>
-                        </ol>
-                    </section>
-                </section>
-
-                <section>
-                    <h3 class="whiteColor animationRightToLeft">Skills and </br>abilities</h3>
-                </section>
-            </section>
-        </section>
-
-        <section id="GamesProject">
-
-            <section id="SpermInvaders">
-
-                <h3 class="whiteColor">Sperm Invaders</h3>
-
-                <div id="carousel-sperm-invaders" class="carousel slide" data-interval="1000" data-pause="hover" data-touch="true" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-sperm-invaders" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-sperm-invaders" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-sperm-invaders" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carousel-sperm-invaders" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel-sperm-invaders" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carousel-sperm-invaders" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carousel-sperm-invaders" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="#carousel-sperm-invaders" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                        <button type="button" data-bs-target="#carousel-sperm-invaders" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                      </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Images/Games Images/Unity/SpermInvaders/Image0.JPG" alt="">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/SpermInvaders/Image1.JPG" alt="">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/SpermInvaders/Image2.JPG" alt="">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/SpermInvaders/Image3.JPG" alt="">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/SpermInvaders/Image4.JPG" alt="">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/SpermInvaders/Image5.JPG" alt="">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/SpermInvaders/Image6.JPG" alt="">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/SpermInvaders/Image7.JPG" alt="">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/SpermInvaders/Image8.JPG" alt="">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev arrow-controle" type="button" data-bs-target="#carousel-sperm-invaders" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carousel-sperm-invaders" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      </button>
-                  </div>
+        <section class="description" id="section2">
     
-            </section>
-
-            <section id="TheGuardian">
-                <h3 class="whiteColor">The Guardian</h3>
-        
-
-                <div id="carousel-guardian" class="carousel slide" data-interval="1000" data-pause="hover" data-touch="true" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-guardian" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-guardian" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-guardian" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carousel-guardian" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel-guardian" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carousel-guardian" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Images/Games Images/Unity/The Guardian/Image0.JPG" alt="" id="ImgGuard">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/The Guardian/Image1.JPG" alt="" id="ImgGuard">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/The Guardian/Image2.JPG" alt="" id="ImgGuard">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/The Guardian/Image3.JPG" alt="" id="ImgGuard">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/The Guardian/Image4.JPG" alt="" id="ImgGuard">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/The Guardian/Image5.JPG" alt="" id="ImgGuard">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev arrow-controle" type="button" data-bs-target="#carousel-guardian" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carousel-guardian" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      </button>
+            <h2>Lorem.</h2>
+    
+            <article>
+                <div>
+                    <p>
+                        J'ai eu l'opportunité d'exercer en tant que tuteur scolaire chez Parkours, une entreprise dédiée à l'accompagnement des collégiens et lycéens dans leur parcours académique.
+                        En tant que tuteur scolaire, j'ai eu le privilège d'aider de nombreux étudiants à surmonter leurs difficultés et à atteindre leurs objectifs scolaires. J'ai travaillé avec des collégiens et des lycéens de différentes matières, en leur fournissant un soutien individualisé et des conseils adaptés à leurs besoins spécifiques.
+                    </p>
                 </div>
-            </section>
-
-            <section id="TowerDefense">
-                <h3 class="whiteColor">Tower Defense</h3>
-
-                <div id="carousel-tower" class="carousel slide" data-interval="1000" data-pause="hover" data-touch="true" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-tower" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-tower" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-tower" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carousel-tower" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel-tower" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carousel-tower" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carousel-tower" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                      </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Images/Games Images/Unity/Tower Defense/Image0.JPG" alt="" id="ImgTD">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Tower Defense/Image1.JPG" alt="" id="ImgTD">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Tower Defense/Image2.JPG" alt="" id="ImgTD">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Tower Defense/Image3.JPG" alt="" id="ImgTD">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Tower Defense/Image4.JPG" alt="" id="ImgTD">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Tower Defense/Image5.JPG" alt="" id="ImgTD">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Tower Defense/Image6.JPG" alt="" id="ImgTD">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev arrow-controle" type="button" data-bs-target="#carousel-tower" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carousel-tower" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      </button>
+                <div>
+                    <p>
+                        Pendant mon emploi étudiant, j'ai travaillé sur des projets de conception et de développement, en respectant les exigences spécifiques de chaque client.
+                        En tant que développeur web freelance, j'ai développé une approche flexible et créative pour répondre aux demandes des clients et fournir des solutions web de haute qualité. 
+                        Je suis passionné par l'innovation et l'amélioration continue, et je suis toujours à l'affût des dernières tendances et technologies en matière de développement web.
+                    </p>
                 </div>
-
-            </section>
-
-            <section id="FlappyBird">
-                <h3 class="whiteColor">FlappyBird</h3>
-        
-                <div id="carousel-flappy" class="carousel slide" data-interval="1000" data-pause="hover" data-touch="true" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-flappy" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-flappy" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-flappy" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carousel-flappy" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel-flappy" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carousel-flappy" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carousel-flappy" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                      </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Images/Games Images/Unity/Flappy Bird/Image0.JPG" alt="" id="ImgFlappy">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Flappy Bird/Image1.JPG" alt="" id="ImgFlappy">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Flappy Bird/Image2.JPG" alt="" id="ImgFlappy">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Flappy Bird/Image3.JPG" alt="" id="ImgFlappy">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Flappy Bird/Image4.JPG" alt="" id="ImgFlappy">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Flappy Bird/Image5.JPG" alt="" id="ImgFlappy">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Flappy Bird/Image6.JPG" alt="" id="ImgFlappy">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev arrow-controle" type="button" data-bs-target="#carousel-flappy" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carousel-flappy" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      </button>
+                <div>
+                    <p>
+                        Chez Tech Kids Academy, j'ai partagé mes connaissances et guidé les jeunes esprits vers le monde passionnant de la technologie.
+                        En tant qu'animateur chez Tech Kids Academy, j'ai eu l'opportunité de transmettre ma passion pour la programmation à une nouvelle génération de créateurs numériques.
+                        J'ai développé des programmes pédagogiques stimulants qui encouragent la créativité, la résolution de problèmes et la collaboration chez les enfants. J'ai guidé les élèves à travers des projets pratiques, où ils ont pu concevoir leurs propres jeux
+                    </p>
                 </div>
-            </section>
-
-            <section id="Hydro">
-                <h3 class="whiteColor">Hydromorphe</h3>
-        
-                <div id="carousel-hydromorphe" class="carousel slide" data-interval="1000" data-pause="hover" data-touch="true" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="10" aria-label="Slide 11"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="11" aria-label="Slide 12"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="13" aria-label="Slide 14"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="14" aria-label="Slide 15"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="15" aria-label="Slide 16"></button>
-                        <button type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide-to="16" aria-label="Slide 17"></button>
-                      </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image0.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image1.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image2.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image3.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image4.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image5.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image6.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image7.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image8.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image9.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image10.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image11.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image12.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image13.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image14.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image15.JPG" alt="" id="ImgHydro">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/Hydromorphe/Image16.JPG" alt="" id="ImgHydro">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev arrow-controle" type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carousel-hydromorphe" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      </button>
-                </div>
-
-            </section>
-
-            <section id="Reseau">
-                <h3 class="whiteColor">Top Down Reseau</h3>
-        
-                <div id="carousel-top" class="carousel slide" data-interval="1000" data-pause="hover" data-touch="true" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                        <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                        <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                        <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="10" aria-label="Slide 11"></button>
-                      </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Images/Games Images/Unity/TopDown Reseau/Image0.JPG" alt="" id="ImgTDR">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/TopDown Reseau/Image1.JPG" alt="" id="ImgTDR">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/TopDown Reseau/Image2.JPG" alt="" id="ImgTDR">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/TopDown Reseau/Image3.JPG" alt="" id="ImgTDR">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/TopDown Reseau/Image4.JPG" alt="" id="ImgTDR">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/TopDown Reseau/Image5.JPG" alt="" id="ImgTDR">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/TopDown Reseau/Image6.JPG" alt="" id="ImgTDR">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/TopDown Reseau/Image7.JPG" alt="" id="ImgTDR">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/TopDown Reseau/Image8.JPG" alt="" id="ImgTDR">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/TopDown Reseau/Image9.JPG" alt="" id="ImgTDR">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unity/TopDown Reseau/Image10.JPG" alt="" id="ImgTDR">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev arrow-controle" type="button" data-bs-target="#carousel-top" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carousel-top" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      </button>
-                </div>
-
-            </section>
-
-            <section id="FollowLight">
-                <h3 class="whiteColor">Follow The Light</h3>
-
-                <div id="carousel-light" class="carousel slide" data-interval="1000" data-pause="hover" data-touch="true" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-light" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-light" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-light" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carousel-light" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel-light" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carousel-light" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                      </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Images/Games Images/Unreal Engine/Follow The Light/Image0.JPG" alt="" id="ImgFollowLight">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Follow The Light/Image1.JPG" alt="" id="ImgFollowLight">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Follow The Light/Image2.JPG" alt="" id="ImgFollowLight">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Follow The Light/Image3.JPG" alt="" id="ImgFollowLight">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Follow The Light/Image4.JPG" alt="" id="ImgFollowLight">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Follow The Light/Image5.JPG" alt="" id="ImgFollowLight">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev arrow-controle" type="button" data-bs-target="#carousel-light" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carousel-light" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      </button>
-                </div>
-
-            </section>
-
-            <section>
-                <h3 class="whiteColor">Army</h3>
-
-                <div id="carousel-army" class="carousel slide" data-interval="1000" data-pause="hover" data-touch="true" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-army" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-army" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-army" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carousel-army" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel-army" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carousel-army" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carousel-army" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                      </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Images/Games Images/Unreal Engine/Army/Image0.JPG" alt="" id="ImgArmy">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Army/Image1.JPG" alt="" id="ImgArmy">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Army/Image2.JPG" alt="" id="ImgArmy">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Army/Image3.JPG" alt="" id="ImgArmy">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Army/Image4.JPG" alt="" id="ImgArmy">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Army/Image5.JPG" alt="" id="ImgArmy">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Army/Image6.JPG" alt="" id="ImgArmy">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev arrow-controle" type="button" data-bs-target="#carousel-army" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carousel-army" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      </button>
-                </div>
-            </section>
-
-            <section>
-                <h3 class="whiteColor">Ninja's Adventure</h3>
-
-                <div id="carousel-ninja" class="carousel slide" data-interval="1000" data-pause="hover" data-touch="true" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="10" aria-label="Slide 11"></button>
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="11" aria-label="Slide 12"></button>
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="13" aria-label="Slide 14"></button>
-                        <button type="button" data-bs-target="#carousel-ninja" data-bs-slide-to="14" aria-label="Slide 15"></button>
-                      </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image0.JPG" alt="" id="ImgNin">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image1.JPG" alt="" id="ImgNin">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image2.JPG" alt="" id="ImgNin">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image3.JPG" alt="" id="ImgNin">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image4.JPG" alt="" id="ImgNin">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image5.JPG" alt="" id="ImgNin">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image6.JPG" alt="" id="ImgNin">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image7.JPG" alt="" id="ImgNin">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image8.JPG" alt="" id="ImgNin">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image9.JPG" alt="" id="ImgNin">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image10.JPG" alt="" id="ImgNin">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image11.JPG" alt="" id="ImgNin">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image12.JPG" alt="" id="ImgNin">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image13.JPG" alt="" id="ImgNin">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Ninja's Adventure/Image14.JPG" alt="" id="ImgNin">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev arrow-controle" type="button" data-bs-target="#carousel-ninja" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carousel-ninja" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      </button>
-                </div>
-            </section>
-
-            <section>
-                <h3 class="whiteColor">Be Stealthy</h3>
-
-                <div id="carousel-stealthy" class="carousel slide" data-interval="1000" data-pause="hover" data-touch="true" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-stealthy" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-stealthy" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-stealthy" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carousel-stealthy" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel-stealthy" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carousel-stealthy" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carousel-stealthy" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="#carousel-stealthy" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                        <button type="button" data-bs-target="#carousel-stealthy" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                        <button type="button" data-bs-target="#carousel-stealthy" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                      </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Images/Games Images/Unreal Engine/Be Stealthy/Image0.JPG" alt="" id="ImgBe">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Be Stealthy/Image1.JPG" alt="" id="ImgBe">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Be Stealthy/Image2.JPG" alt="" id="ImgBe">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Be Stealthy/Image3.JPG" alt="" id="ImgBe">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Be Stealthy/Image4.JPG" alt="" id="ImgBe">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Be Stealthy/Image5.JPG" alt="" id="ImgBe">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Be Stealthy/Image6.JPG" alt="" id="ImgBe">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Be Stealthy/Image7.JPG" alt="" id="ImgBe">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Be Stealthy/Image8.JPG" alt="" id="ImgBe">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Be Stealthy/Image9.JPG" alt="" id="ImgBe">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev arrow-controle" type="button" data-bs-target="#carousel-stealthy" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carousel-stealthy" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      </button>
-                </div>
-            </section>
-
-            <section>
-                <h3 class="whiteColor">Adventurer</h3>
-
-                <div id="carousel-adventurer" class="carousel slide" data-interval="1000" data-pause="hover" data-touch="true" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="10" aria-label="Slide 11"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="11" aria-label="Slide 12"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="13" aria-label="Slide 14"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="14" aria-label="Slide 15"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="15" aria-label="Slide 16"></button>
-                        <button type="button" data-bs-target="#carousel-adventurer" data-bs-slide-to="16" aria-label="Slide 17"></button>
-                      </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image0.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image1.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image2.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image3.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image4.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image5.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image6.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image7.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image8.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image9.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image10.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image11.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image12.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image13.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image14.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image15.JPG" alt="" id="ImgAdv">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Images/Games Images/Unreal Engine/Adventurer/Image16.JPG" alt="" id="ImgAdv">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev arrow-controle" type="button" data-bs-target="#carousel-adventurer" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carousel-adventurer" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      </button>
-                </div>
-            </section>
-
+            </article>
         </section>
+    </section>
 
-        <section id="WorkTogether">
-            <section>
-
-                <section>
-                    <h3 class="whiteColor">Let's work </br>together</h3>
-                </section>
-
-                <section>
-                    <section id="WorkTogetherImage">
-                        <ol>
-                            <ul class="blueColor">
-                                <img src="Images/Icons Images/gmail.png" alt="" class="images">
-                            </ul>
-                            <ul class="otherBlueColor">
-                                <img src="Images/Icons Images/smartphone.png" alt="" class="images">
-                            </ul>
-                            <ul class="blueColor">
-                                <img src="Images/Icons Images/cv.png" alt="" class="images">
-                            </ul>
-                            <ul class="otherBlueColor">
-                                <img src="Images/Icons Images/emplacement.png" alt="" class="images">
-                            </ul>
-                        </ol>
-                    </section>
-
-                    <section id="WorktogetherSpace"></section>
-                    
-                    <section id="WorkTogetherText">
-                        <ol>
-                            <ul>EMAIL</ul>
-                                <p class="whiteColor">elvishenry2402@gmail.com</p>
-                            <ul>MOBILE</ul>
-                                <p class="whiteColor">(+33) 07 68 94 94 89</p>
-                            <ul>C.V</ul>
-                                <p class="whiteColor">
-                                    <a href="https://henryelvis.github.io/CV/" target="_blanc">
-                                        https://henryelvis.github.io/CV
-                                    </a>
-                                </p>
-                            <ul>MAILLING ADRESSE</ul>
-                                <p class="whiteColor">18 Place du Marché, </br>Neuilly-Sur-Seine, 92200. France.</p>
-                        </ol>
-                    </section>
-                </section>
-            </section>
-        </section>
-
+    <section id="project">
         <div>
-            <section id="CircleMenu">
-                01
-            </section>
+            <img src="./images/SI.svg" alt="">
+            <p>
+                Sperm Invaders est un jeu 2D créé sous Unity lors d'une game jam. Dans ce jeu, les joueurs incarnent des spermatozoïdes qui doivent naviguer à travers un environnement hostile pour atteindre et féconder un ovule. 
+                Le gameplay est basé sur des mécaniques de défilement horizontal et de shoot'em up.
+            </p>
         </div>
-        <script src="JS/portfolio.js"></script>
-    </body>
+        <div>
+            <img src="./images/Guardian.png" alt="">
+            <p>
+                The Guardian est un projet de jeu 2D réalisé sous Unity, qui propose une expérience captivante dans un donjon procédural. Plongez dans un monde rempli de mystères et de dangers, où vous incarnez un gardien courageux.
+                Le jeu propose une variété d'ennemis redoutables, des boss puissants et des pièges sournois
+            </p>
+        </div>
+        <div>
+            <img src="./images/FB.png" alt="">
+            <p>
+                Plongez dans un monde simple mais addictif où vous contrôlez un oiseau et devez éviter les obstacles.
+                Le gameplay de ce jeu est facile à comprendre : vous devez appuyer sur un bouton pour faire voler l'oiseau et éviter les tuyaux qui se dressent sur votre chemin. 
+            </p>
+        </div>
+        <div>
+            <img src="./images/Hydromorph.png" alt="">
+            <p>
+                En tant que joueur, vous devrez maîtriser les mécaniques de transformation entre les états liquide, solide et gazeux pour surmonter les défis qui se présentent à vous.
+                Vous devrez réfléchir de manière stratégique et utiliser les compétences spécifiques à chaque état pour progresser.
+            </p>
+        </div>
+        <div>
+            <img src="./images/FTL.png" alt="">
+            <p>
+                Dans ce projet de jeu développé sous Unreal Engine, vous aurez l'occasion de créer une expérience immersive où les joueurs doivent traverser une zone remplie d'obstacles en utilisant des interrupteurs pour ouvrir des portes et suivre les indices donnés par la lumière pour trouver le bon chemin.
+                Les joueurs devront également faire preuve de patience, de logique et de perspicacité pour trouver le bon chemin et surmonter les obstacles qui se dressent devant eux.
+            </p>
+        </div>
+        <div>
+            <img src="./images/NA.png" alt="">
+            <p>
+                Le joueur se retrouve plongé dans un environnement hostile et complexe, avec des niveaux conçus pour mettre à l'épreuve ses compétences en résolution de problèmes et en prise de décision rapide. 
+                Chaque niveau propose des défis uniques, combinant des obstacles physiques et des énigmes logiques à résoudre.
+                À mesure que les joueurs progressent à travers les différents niveaux, la difficulté augmentera, offrant ainsi un défi croissant.
+            </p>
+        </div>
+    </section>
+
+</body>
+<footer>
+    <article>
+        <div>
+            <a href="https://www.google.com" target="_blank">
+                <i class="fa-brands fa-github fa-bounce"></i>
+                <p>Github</p>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.google.com" target="_blank">
+                <i class="fa-brands fa-discord fa-bounce"></i>
+                <p>Discord</p>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.google.com" target="_blank">
+                <i class="fa-brands fa-twitter fa-bounce"></i>
+                <p>Twitter</p>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.twitch.tv/kiraa24tv" target="_blank">
+                <i class="fa-brands fa-twitch fa-bounce"></i>
+                <p>Twitch</p>
+            </a>
+        </div>
+    </article>
+
+    <script src="javascript/index.js"></script>
+
+</footer>
 </html>

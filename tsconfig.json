@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outDir": "javascript",
+        "noEmitOnError": true,
+        "strict": true,
+    },
+    "files": [
+        "typescript/index.ts"
+    ]
+}

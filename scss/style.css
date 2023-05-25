@@ -1,0 +1,239 @@
+h1, p {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  pointer-events: none;
+}
+
+body {
+  background: linear-gradient(0.25turn, #280E2F, #121345);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#title {
+  font-family: pac0;
+  text-align: center;
+  width: 70em;
+  margin: 0 auto;
+}
+#title h1 {
+  color: #FFFFFF;
+  font-size: 6em;
+  text-shadow: #776F87 4px 5px;
+  animation: scale 3s infinite;
+  padding-top: 1em;
+}
+#title p {
+  color: #FFC300;
+  font-size: 4em;
+  letter-spacing: 0.3em;
+}
+#title i {
+  color: #FFC300;
+  font-size: 2em;
+  text-align: end;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#cmd-toggle-btn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 1em;
+  padding: 0.5em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #FFFFFF;
+  font-size: 1em;
+  cursor: pointer;
+  outline: none;
+}
+
+#terminal {
+  border: black 0.5em solid;
+  border-radius: 2em;
+  width: 70em;
+  height: 30em;
+  margin: 0 auto;
+  margin-top: 3em;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#terminal output {
+  margin-bottom: 10px;
+}
+#terminal p {
+  color: #FFC300;
+  font-size: 1em;
+  margin: 1em;
+}
+#terminal p span {
+  text-decoration: underline;
+}
+#terminal p input {
+  color: #FFFFFF;
+  caret-color: #FFC300;
+  outline: none;
+  font-size: 1em;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+.description {
+  margin: 0 auto;
+}
+.description article {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 3em;
+}
+.description article div {
+  border: #FFFFFF 1px solid;
+  border-radius: 1em;
+  box-shadow: #776F87 4px 5px;
+  padding: 1em;
+  width: 15rem;
+  height: 20rem;
+}
+.description article div p {
+  color: #FFFFFF;
+}
+.description h2 {
+  color: #FFFFFF;
+  font-size: 2em;
+  text-align: center;
+}
+
+#project {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2em;
+  margin-top: 3em;
+  justify-items: center;
+  align-items: center;
+}
+#project div {
+  width: 20rem;
+  text-align: center;
+}
+#project div img {
+  display: inline-block;
+}
+#project div p {
+  color: #FFFFFF;
+  text-align: start;
+}
+
+footer {
+  margin-top: 3em;
+}
+footer article {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  text-align: center;
+}
+footer article div a {
+  text-decoration: none;
+}
+footer article div a i {
+  font-size: 2em;
+  color: #FFFFFF;
+}
+footer article div a p {
+  font-size: 1.5em;
+  color: #FFFFFF;
+}
+footer article :hover {
+  transform: scale(1.1);
+}
+footer article :hover p, footer article :hover i {
+  color: #FFC300;
+}
+
+@media screen and (max-width: 1600px) {
+  #title {
+    width: 60em;
+  }
+  #title h1 {
+    font-size: 5rem;
+    padding-top: 1em;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #title {
+    width: 50em;
+  }
+  #title h1 {
+    font-size: 4rem;
+    padding-top: 1em;
+  }
+  #terminal {
+    width: 30em;
+    height: 30em;
+  }
+  #terminal p input {
+    width: 15em;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #title {
+    width: 40em;
+  }
+  #title h1 {
+    font-size: 4rem;
+    padding-top: 1em;
+  }
+  #project {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+@media screen and (max-width: 850px) {
+  #title {
+    width: 40em;
+  }
+  #title h1 {
+    font-size: 3rem;
+    padding-top: 1em;
+  }
+  #title p {
+    font-size: 2rem;
+    letter-spacing: 0.3em;
+  }
+}
+#wrapper {
+  border: 1px red solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 4rem;
+}/*# sourceMappingURL=style.css.map */

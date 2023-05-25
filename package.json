@@ -1,0 +1,28 @@
+{
+  "name": "nouveauportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenryElvis/NouveauPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenryElvis/NouveauPortfolio/issues"
+  },
+  "homepage": "https://github.com/HenryElvis/NouveauPortfolio#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "react": "^18.2.0",
+    "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "keywords": []
+}

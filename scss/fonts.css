@@ -1,0 +1,15 @@
+@font-face
+{
+    font-family: slb;
+    src: url(../Fonts/superfont/superLegendBoy.ttf);
+}
+
+@font-face {
+    font-family: pac0;
+    src: url(../Fonts/pacfont/Pacfont0.ttf);
+}
+
+@font-face {
+    font-family: pac1;
+    src: url(../Fonts/pacfont/Pacfont1.ttf);
+}
