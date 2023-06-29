@@ -4,6 +4,8 @@ interface CommandsList {
 
 class CMD {
 
+  result: string = "";
+
   private cmdCommand = {
     "help": "help - affiche cette aide \n contact - affiche mes informations de contact \n clear - efface l'écran",
     "contact": "contact -email \n contact -phone",
@@ -48,7 +50,7 @@ class CMD {
 
       if (command in this.cmdCommand) 
       {
-        // this.result = "Output:\n" + this.cmdCommand[command];
+        this.result = "Output:\n" + this.cmdCommand[command];
       }
       else
       {
@@ -72,8 +74,6 @@ class CMD {
             this.result = "Output:\n" + `Commande inconnue : ${command}. Tapez 'help' pour afficher la liste des commandes disponibles.`;
           this.writeOutput(`Commande inconnue : ${command}. Tapez 'help' pour afficher la liste des commandes disponibles.`);
       }
-      else
-        this.writeOutput(`Commande inconnue : ${command}. Tapez 'help' pour afficher la liste des commandes disponibles.`);
     }
 
     public clearCommand() 
