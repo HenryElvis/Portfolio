@@ -6,7 +6,7 @@ class CMD {
 
   result: string = "";
 
-  private cmdCommand = {
+  private cmdCommand : {[index: string]: any} = {
     "help": "help - affiche cette aide \n contact - affiche mes informations de contact \n clear - efface l'écran",
     "contact": "contact -email \n contact -phone",
     "contact -email": "elvishenry2402@gmail.com",
@@ -50,7 +50,7 @@ class CMD {
 
       if (command in this.cmdCommand) 
       {
-        this.result = "Output:\n" + this.cmdCommand[command];
+        this.result = "Output:\n" + this.cmdCommand[command.toString()];
       }
       else
       {
