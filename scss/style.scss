@@ -199,6 +199,11 @@ body
             color: $text_color;
             text-align: start;
         }
+
+        .content-warning
+        {
+            filter: blur(0.5rem);
+        }
     }
 }
 

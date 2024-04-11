@@ -154,6 +154,9 @@ body {
   color: #FFFFFF;
   text-align: start;
 }
+#project div .content-warning {
+  filter: blur(0.5rem);
+}
 
 footer {
   margin-top: 3em;
