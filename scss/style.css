@@ -1,4 +1,4 @@
-h1, p {
+img, h1, p {
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -156,6 +156,29 @@ body {
 }
 #project div .content-warning {
   filter: blur(0.5rem);
+}
+#project div .project-image {
+  padding: 0 1em 0 1em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1em;
+  width: 20em;
+  height: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#project div .project-image img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1em;
+}
+#project div .project-content {
+  padding: 0 1em 0 1em;
+  border-radius: 1em;
+  height: 15em;
 }
 
 footer {
