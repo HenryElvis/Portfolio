@@ -23,8 +23,7 @@ class CMD {
       clear: "",
       contact: "contact - affiche mes informations de contact",
       "contact -email": "elvishenry2402@gmail.com",
-      "contact -telephone": "07 68 94 94 89",
-      "adresse": "Place du marché, 92200 Neuilly-sur-Seine",
+      "contact -telephone": "07 68 94 94 89"
     };
 
     constructor(inputId: string, outputId: string) 
